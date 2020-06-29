@@ -18,3 +18,29 @@ cat path\to\your\key\generated
 5. Go to your GitHub Settings -> SSH & GPG Keys -> New SSH key -> paste your key
 
 ## 2. Setup the deployment script by following instruction in README
+
+## 3. Setup git on production server
+1. Initialize git repo
+```
+git init
+```
+
+2. Add remote origin
+```
+git remote add origin <github repo ssh url>
+```
+
+3. Set upstream
+```
+git branch --set-upstream-to=origin/master master
+```
+
+4. Pull origin
+```
+git pull
+```
+
+
+## References
+- https://medium.com/better-programming/how-to-automatically-deploy-from-github-to-server-using-webhook-79f837dcc4f4
+- https://stackoverflow.com/questions/32056324/there-is-no-tracking-information-for-the-current-branch
