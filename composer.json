@@ -1,0 +1,7 @@
+{
+    "name": "senangprint/git-deploy",
+    "description": "A PHP script to automatically pull from a repository to a web server (using a webhook on GitHub, GitLab, or Bitbucket).",
+    "require": {
+        "php": "^7.1"
+    }
+}
