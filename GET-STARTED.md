@@ -18,6 +18,10 @@ cat path\to\your\key\generated
 5. Go to your GitHub Settings -> SSH & GPG Keys -> New SSH key -> paste your key
 
 ## 2. Setup the deployment script by following instruction in README
+* Install via composer
+```
+composer require senangprint/git-deploy:dev-master
+```
 
 ## 3. Setup git on production server
 1. Initialize git repo
