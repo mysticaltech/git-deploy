@@ -34,6 +34,12 @@ git init
 git remote add origin <github repo ssh url>
 ```
 
+3. 
+```
+git fetch origin
+git checkout master
+```
+
 3. Set upstream
 ```
 git branch --set-upstream-to=origin/master master
